@@ -37,7 +37,8 @@ class Details extends Component {
     render() {
       
       const { name, price, category, description, color, image } = this.state.goods_details;
-
+      // var img = 'http://localhost:4888/uploads/' + image;
+      var img = 'https://goods-node-backend.herokuapp.com/uploads/' + image;
       return (
       this.state.isLoading ? 
       <React.Fragment>
@@ -64,7 +65,7 @@ class Details extends Component {
                                     {/*<h2>MacBook 2016 with 256 SSD and 8GB RAM</h2>*/}
                                      <div id="owl-demo" className="owl-carousel owl-theme" style={{ marginTop: 30 }}>
                                         <div className="item">
-                                            <img src="/img/5.png" alt=""/>
+                                            <img src={ img } alt=""/>
                                         </div>
                                       
                                     </div>
