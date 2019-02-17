@@ -17,5 +17,3 @@ export function get_good_with_id(id){
     var url = root_path + '/good/' + id;
     return axios.get(url);
 }
-
-
