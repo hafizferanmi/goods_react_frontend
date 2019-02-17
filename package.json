@@ -6,7 +6,6 @@
     "axios": "^0.18.0",
     "draft-js": "^0.10.5",
     "medium-draft": "^0.6.0-beta1",
-    "pass": "oxsxMA6x6AWH",
     "prop-types": "^15.6.2",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
