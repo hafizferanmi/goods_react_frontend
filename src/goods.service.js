@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const root_path = 'http://hfbook.herokuapp.com//api';
+const root_path = 'https://hfbook.herokuapp.com//api';
 // const root_path = 'http://localhost:4888/api';
 
 export function add_good(good){
