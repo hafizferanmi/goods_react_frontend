@@ -18,10 +18,10 @@ class App extends Component {
             <React.Fragment>
             <Router>
             <div>
-                <HeaderComponent />
+                {/*<HeaderComponent />*/}
                 <Switch>
-                    <Route path='/' component={ HomeComponent } exact />
-                    <Route path='/add' component={ AddGoodComponent } />
+                    {/*<Route path='/' component={ HomeComponent } exact />*/}
+                    <Route path='/' component={ AddGoodComponent } exact />
                     <Route path='/details/:goodsId' component={ DetailsComponent } />
                     <Route path='/success' component={ SuccessComponent } />
                     <Route component={ NotFoundComponent } />
