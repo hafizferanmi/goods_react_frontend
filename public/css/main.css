@@ -1,0 +1,56 @@
+@font-face {
+    font-family: mont;
+    src: url(book.otf);
+    font-weight: 400;
+}
+
+body{
+	font-family: 'mont';
+}
+
+.content{
+	background: whitesmoke;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+.api_text{
+	color: red;
+	font-size: 20px;
+}
+
+a.btn{
+	width: 70%;
+	border-radius: 3px;
+}
+
+.book_url_ul{
+	font-size: 15px;
+	color: whitesmoke;
+}
+/*
+.book_url_li{
+	margin-top: 10px;
+	list-style-type: none;
+	background: white;
+	padding: 5px;
+}
+
+.book_url_li:first{
+	margin-top: 0px;
+}
+*/
+.table{
+	color: blue;
+	margin-top: 20px;
+}
+
+form{
+	margin-top: 30px;
+
+}
+
+label{
+	color: red;
+	font-size: 12px;
+}

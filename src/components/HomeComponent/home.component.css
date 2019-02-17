@@ -1,0 +1,26 @@
+.h_grid {
+    background: rgba(108, 118, 124, .3);
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 30px 5px;
+
+}
+
+.grid_fa {}
+
+
+.grid_good_title {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.h_goods_grid{
+    background: whitesmoke;
+    margin-top: -50px;
+    border-radius: 3px;
+}
+
+.grid_good_btn {}
