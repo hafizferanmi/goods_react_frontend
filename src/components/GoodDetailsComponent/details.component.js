@@ -62,7 +62,7 @@ class Details extends Component {
                                     <div className="inner-box ads-details-wrapper">
                                     <h2> { name } </h2>
                                     {/*<h2>MacBook 2016 with 256 SSD and 8GB RAM</h2>*/}
-                                     <div id="owl-demo" className="owl-carousel owl-theme">
+                                     <div id="owl-demo" className="owl-carousel owl-theme" style={{ marginTop: 30 }}>
                                         <div className="item">
                                             <img src="/img/5.png" alt=""/>
                                         </div>
