@@ -28,7 +28,12 @@ class Details extends Component {
      })
      .then(data => {
          // console.log(data[0]);
-         this.setState({ goods_details: data, isLoading: false })
+         if(data.error){
+           this.props.history.push('/');
+         }else{
+           this.setState({ goods_details: data.good, isLoading: false })
+         }
+         
      })
      .catch(error => this.setState({ error, isLoading: false }));
   }
